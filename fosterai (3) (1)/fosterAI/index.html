@@ -1,0 +1,1868 @@
+﻿<!DOCTYPE html>
+<head id="Head1">
+    <meta charset="utf-8" />
+    <title>Foster AI</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- Favicon and manifest -->
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon_logo (2).png" />
+
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/slicknav.css" />
+    <link rel="stylesheet" href="assets/css/flaticon.css" />
+    <link rel="stylesheet" href="assets/css/progressbar_barfiller.css" />
+    <link rel="stylesheet" href="assets/css/gijgo.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/animated-headline.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/css/themify-icons.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ced344d9de.js" crossorigin="anonymous"></script>
+
+    <!-- Slider-specific CSS -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
+    <link href="css/cdn_StyleSheetOnline.css" rel="stylesheet" />
+    <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="plugins/animate-css/animate.css" />
+    <link rel="stylesheet" href="plugins/slick/slick.css" />
+    <link rel="stylesheet" href="plugins/slick/slick-theme.css" />
+    <link rel="stylesheet" href="plugins/colorbox/colorbox.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Custom styles -->
+    <style>
+        html,body{
+            width:100%;
+            height:100%;
+            margin:0;
+            padding:0;
+            overflow-x:hidden;
+            
+        }
+        /* Custom styles for various elements 
+        
+            */
+        .features-caption p {
+            font-family: cursive;
+        }
+
+        .target_item {
+            font-weight: bold;
+        }
+
+        .target {
+            margin-top: 25%;
+        }
+
+        .single-services {
+            margin-bottom: 0px;
+        }
+
+        .properties__img {
+            height: 200px;
+        }
+
+        .services-area {
+            margin-top: -8vh !important;
+        }
+
+        @media (min-width: 1200px) {
+            #my_container {
+                max-width: 1300px !important;
+            }
+        }
+
+        /* Footer styles */
+        .footer-area .footer-tittle ul li {
+            margin-bottom: 5px;
+        }
+
+        /* Modal styles */
+        .modal-content {
+            width: 100%;
+            height: 100%;
+        }
+
+        #btnSubmitModalPopup {
+            width: 100%;
+            padding-top: 9px !important;
+            height: 0px;
+        }
+
+        /* Form control styles */
+        .form-control {
+            border-radius: 5px;
+            padding-left: 8px;
+            height: 32px;
+        }
+
+        .form-select {
+            height: 38px;
+        }
+
+        /* Properties card styles */
+        .properties__card {
+            box-shadow: 0px 6px 6px 4px rgb(2 25 65 / 8%);
+            border-radius: 10px;
+        }
+
+        .properties__caption {
+            padding: 15px;
+        }
+
+        /* General styles */
+        html {
+            -webkit-tap-highlight-color: transparent;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        a, .body1 {
+            color: #ffffff;
+        }
+
+        .body1 {
+            background: black;
+            font-family: Roboto, Arial, sans-serif;
+            font-size: 14px;
+            min-width: 320px;
+            position: relative;
+        }
+
+        #aboutSection {
+            margin-top: 12vh;
+        }
+
+        .left-content1 > div > div > p {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .p{
+            color:black;
+        }
+
+        /* Lazyload styles */
+        .lazyload,
+        .lazyloading {
+            opacity: 0;
+        }
+
+        .lazyloaded {
+            opacity: 1;
+            transition: opacity .2s;
+        }
+
+        /* Main content styles */
+        .main {
+            padding-top: 42px;
+        }
+
+        @media (min-width:568px) {
+            .search {
+                display: block;
+                padding: 6px 25px;
+                position: static;
+            }
+        }
+
+        @media (min-width:1200px) {
+            .container {
+                padding: 0 !important;
+                width: 95vw;
+            }
+        }
+
+        .features-icon img {
+            height: 20px;
+        }
+
+        .main,
+        .body1,
+        html {
+            height: 100%;
+        }
+
+        .main {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            min-height: 300px;
+            padding: 0;
+            position: relative;
+        }
+
+        ._search {
+            max-width: 800px;
+            opacity: 1;
+            width: 80%;
+        }
+
+        /* Particle.js styles */
+        canvas {
+            display: block;
+        }
+
+        #particles-js {
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+
+        /* Team member styles */
+        #team-member {
+            display: flex;
+            justify-content: center;
+            vertical-align: middle;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+
+        .left-content1 div div img {
+            width: 16px;
+        }
+
+        /* Faculty account styles */
+        .facultyAcc {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            margin-top: -6px;
+            height: 4vh;
+        }
+
+        .facultyAcc i {
+            display: block;
+            font-size: x-large;
+            padding: 4px;
+            justify-items: center;
+            justify-content: space-between;
+            align-self: center;
+        }
+       
+
+        /* Styles for mobile phones */
+
+        @media (max-width: 480px) {
+            .column {
+                width: 100%;
+                padding: 5px;
+            }
+        }
+
+
+        .facultyAcc i:hover {
+            font-size: xx-large;
+            margin-top: -5px;
+        }
+
+        .footer-wrappper {
+    padding: 2vh 0;
+}
+
+.footer-area {
+    padding-top: 8vh;
+}
+
+
+.footer-logo p {
+    font-size: 1.5em;
+    color: black;
+}
+
+.footer-tittle ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-tittle h4 {
+    font-size: 1.2em;
+}
+
+.footer-social a {
+    font-size: 1.5em;
+    margin-right: 15px;
+    color: #000;
+}
+
+.footer-social a:hover {
+    color: #007bff;
+}
+
+.contact-info__icon {
+    font-size: 1.5em;
+}
+
+.contact-info .media-body p,
+.contact-info .media-body h3,
+.contact-info .media-body a {
+    color: black;
+}
+
+.footer-copy-right p {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .footer-area {
+        padding-top: 5vh;
+    }
+
+    .footer-wrappper .row {
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .single-footer-caption {
+        margin-bottom: 30px;
+    }
+
+    .footer-tittle h4 {
+        font-size: 1em;
+    }
+
+    .footer-tittle ul li {
+        margin-bottom: 10px;
+    }
+
+    .footer-social a {
+        font-size: 1.2em;
+        margin-right: 10px;
+    }
+
+    .contact-info__icon {
+        font-size: 1.2em;
+    }
+
+    .contact-info .media-body p,
+    .contact-info .media-body h3,
+    .contact-info .media-body a {
+        font-size: 0.9em;
+    }
+
+    .footer-copy-right p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-wrappper .row {
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .single-footer-caption {
+        margin-bottom: 20px;
+    }
+
+    .footer-tittle h4 {
+        font-size: 0.9em;
+    }
+
+    .footer-tittle ul li {
+        margin-bottom: 8px;
+    }
+
+    .footer-social a {
+        font-size: 1em;
+        margin-right: 5px;
+    }
+
+    .contact-info__icon {
+        font-size: 1em;
+    }
+
+    .contact-info .media-body p,
+    .contact-info .media-body h3,
+    .contact-info .media-body a {
+        font-size: 0.8em;
+    }
+
+    .footer-copy-right p {
+        font-size: 0.8em;
+    }
+}
+
+
+        /* Social media icon colors */
+        .social-linkedIn { color: blue; }
+        .social-facebook { color: darkblue; }
+        .social-whatsapp { color: green; }
+        .social-insta { color: rgb(208, 30, 92); }
+        .social-twitter { color: black; }
+
+        .footer-tittle ul {
+            padding-left: 0px;
+        }
+
+        .active {
+            border-bottom: 3px solid whitesmoke;
+        }
+
+        /* Icon holder styles */
+        .qodef-icon-holder.qodef-has--circle-hover .qodef-svg-circle:hover {
+            stroke-dashoffset: 0 !important;
+        }
+
+        .qodef-icon-holder.qodef-has--circle-hover .qodef-svg-circle {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            stroke-width: 2.1;
+            fill: none;
+            transition: all .55s ease-in-out,opacity .2s ease-out;
+            stroke: currentColor;
+            transform: scaleX(-1) scaleY(-1);
+            opacity: 0;
+            color: black;
+            stroke-dashoffset: 200;
+            stroke-dasharray: 200;
+            z-index: 5;
+        }
+
+        .widget.widget_neobeat_core_icon a {
+            color: #5d516c;
+        }
+
+        .qodef-icon-holder.qodef-has--circle-hover {
+            position: relative;
+            width: 2.1em;
+            height: 2.1em;
+            line-height: 2.1em;
+            text-align: center;
+        }
+
+        .qodef-icon-holder {
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+            width: auto;
+            line-height: 1.2;
+        }
+
+        /* Notification animation */
+        @keyframes noti_ani {
+            0% { right: -110%; }
+            70% { right: 7%; }
+            100% { right: -110% }
+        }
+    </style>
+    <style>
+        .boxed-btn{
+            color:#723597;
+            border:1px solid #7f44a3;
+        }
+        .team-area .single-cat {
+    margin: 0 10px; /* Adjust margin to ensure proper spacing */
+}
+
+.team-area .single-cat .cat-icon {
+    width: 100%;
+    padding-top: 100%; /* Maintain aspect ratio */
+    position: relative; /* Required for absolute positioning */
+    overflow: hidden; /* Crop any overflow */
+}
+
+.team-area .single-cat .cat-icon img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure image covers the container */
+}
+
+.team-area .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap; /* Ensure items stay in a single row */
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 10px; /* Adjust padding for mobile */
+    }
+
+    .box {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+body {
+    overflow-x: hidden;
+}
+
+
+@media (max-width: 768px) {
+    .team-area .row {
+        flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    }
+}
+
+       
+        .sol-img{
+            float: right;
+        }
+        
+    </style>
+</head>
+<body>
+        <!-- Preloader Section -->
+        <div id="preloader-active">
+            <div class="preloader d-flex align-items-center justify-content-center">
+                <div class="preloader-inner position-relative">
+                    <div class="preloader-circle"></div> <!-- Circle animation for preloader -->
+                    <div class="preloader-img pere-text">
+                        <img src="images/FOSTERLEAF.png" alt="" /> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Preloader End -->
+
+        <!-- Modal for Internship Application -->
+        <!--<div class="modal fade" id="internshipModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="padding: 25px">
+                    <button style="align-self: flex-end" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> <!-- Close button for modal -->
+                   <!-- <img src="images/logo-removebg-preview.png" width="70%" style="align-self: center" alt="" /> <!-- Company logo -->
+                    <!-- <!-- Input field for interested course -->
+                                <!-- Validators commented out -->
+                           <!-- </div>
+                            <div class="mb-3">
+                                <label for="txtInternMail" class="form-label">Email:</label>
+                                <input id="txtInternMail" class="form-control" type="email" /> <!-- Input field for email -->
+                                <!-- Validators commented out -->
+                           <!-- </div>
+                            <div class="mb-3">
+                                <label for="txtInternPhone" class="form-label">Phone:</label>
+                                <input id="txtInternPhone" class="form-control" type="tel" /> <!-- Input field for phone -->
+                                <!-- Validators commented out -->
+                          <!--  </div>
+                            <div>
+                                <button id="btnSaveInternDataCourse" style="width: 100%;" class="btn btn-primary">Apply now</button> <!-- Apply button -->
+                           <!--</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+        <!--Modal for Internship Ends Here -->
+
+        <!-- Modal for Contact Us -->
+        <div class="modal fade" id="contactUsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" style="width: 30%;">
+                <div class="modal-content" style="padding: 25px">
+                    <button style="align-self: flex-end" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> <!-- Close button for modal -->
+                    <img src="images/logo-removebg-preview.png" width="70%" style="align-self: center" alt="" /> <!-- Company logo -->
+                    <br>
+                    <div class="modal-header" style="align-self: center">
+                        <h4 class="modal-title" id="exampleModalLabel">Contact us</h4> <!-- Modal title -->
+                    </div>
+                    <div class="modal-body">
+                        <div class="row g-3">
+                            <div class="mb-3">
+                                <label for="txtNameService" class="form-label">Name:</label>
+                                <input id="txtNameService" class="form-control" /> <!-- Input field for name -->
+                                <!-- Validators commented out -->
+                                <div class="invalid-feedback">
+                                    Please enter a valid name
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="txtEmailService" class="form-label">Email:</label>
+                                <input id="txtEmailService" class="form-control" type="email" /> <!-- Input field for email -->
+                                <!-- Validators commented out -->
+                                <div class="invalid-feedback">
+                                    Please enter a valid email address.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="txtMobileServices" class="form-label">Phone:</label>
+                                <input id="txtMobileServices" class="form-control" type="tel" /> <!-- Input field for phone -->
+                                <!-- Validators commented out -->
+                                <div class="invalid-feedback">
+                                    Please enter a valid 10-digit phone number.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="txtSubjectService" class="form-label">Topic:</label>
+                                <input id="txtSubjectService" class="form-control" /> <!-- Input field for topic -->
+                            </div>
+                            <div class="mb-3">
+                                <label for="validationDefault02" class="form-label">Enter your query</label>
+                                <label id="lblTopic" class="form-label"></label>
+                                <input id="txtQueryDescriptionServices" class="form-control" type="text" rows="3" /> <!-- Input field for query description -->
+                            </div>
+                            <div class="mb-3">
+                                <button id="btnSubmitContactUsModal" style="width: 100%;" class="btn btn-primary" > Apply Now</button> <!-- Submit button with alert -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal for Contact Us Ends Here -->
+         <!--header-->
+
+
+
+        <header>
+            <!-- Header Start -->
+            <div class="header-area header-transparent">
+                <div class="main-header">
+                    <div class="header-bottom git log --oneline
+                    -sticky">
+                        <div class="container-fluid" style="height: 100px;">
+                            <div class="row align-items-center">
+                                <!-- Logo -->
+                                <div class="col-xl-2 col-lg-2">
+                                    <div class="logo">
+                                        <a href="index.html">
+                                            <span style="font-size: 1.5em; font-weight: bold;">FosterAI</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-10 col-lg-10">
+                                    <div class="menu-wrapper d-flex align-items-center justify-content-end">
+                                                <!-- Main-menu -->
+                                        <div class="main-menu d-none d-lg-block">
+                                            <nav>
+                                                <ul id="navigation">
+                                                    <li><a class="active nav_links" href="#" style="padding-bottom: 3px">Home</a></li>
+                                                    <li><a class="nav_links" href="#aboutSection" style="padding-bottom: 3px">About Us</a></li>
+                                                    <li><a class="nav_links" href="#services" style="padding-bottom: 3px">Services</a></li>
+                                                    <li><a class="nav_links" href="#courses" style="padding-bottom: 3px">Courses</a></li>
+                                                    <li><a class="nav_links" href="#contactUs" style="padding-bottom: 3px">Contact Us</a></li>
+                                                    <!-- Button -->
+                                                    <li class="button-header">
+                                                        <!-- <%--                                                    <button  >
+                                                        Apply for Internship</button>--%> -->
+                                                        <a class="btn btn-lg btn3" href="https://docs.google.com/forms/d/e/1FAIpQLSeByOxUSNyuMpyYSkuSDCmJwqL0-dSpZyrdI0UCn1JYceJJiw/viewform" style="width: 100% !important; background-color: white; color: rgb(13, 0, 255); border-color: rgb(255, 0, 0); height: 50px; font-size: larger; padding: 10px !important;">Apply For Internship</a>
+                                                        <!-- <asp:Panel style="margin-left:15px;position:absolute;z-index:11;top:60px;width:200px;animation-name:noti_ani;animation-iteration-count:1;animation-duration:4s;" ID="pnlSuccess"  Visible="false">
+                                                                    <div class="alert alert-success" role="alert">
+                                                                          Registration Successfull!!
+                                                                    </div>
+                                                             </asp:Panel> -->
+                                                       
+
+                                                      
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Mobile Menu -->
+                                <div class="col-12">
+                                    <div class="mobile_menu d-block d-lg-none"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Header End -->
+        </header>
+        <div>
+            <div class="banner-carousel banner-carousel-1 mb-0">
+                <div class="banner-carousel-item ">
+                    <div class="body1" style="height: 100vh;">
+                        <div class="main">
+                            <div class="slider-content text-center">
+                                <div class="container h-100">
+                                    <div class="row align-items-center h-100">
+                                        <div class="col-md-12">
+                                            <h2 class="slide-title" data-animation-in="slideInDown" style="z-index: 10;">From classrooms to codebases</h2>
+                                            <h3 class="slide-sub-title" data-animation-in="fadeIn" style="z-index: 10;">We foster brilliance in IT</h3>
+                                            <div class="col-md-12" style="z-index: 10;">
+                                                <div data-animation-in="slideInLeft" style="z-index: 15;">
+                                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeByOxUSNyuMpyYSkuSDCmJwqL0-dSpZyrdI0UCn1JYceJJiw/viewform" style="z-index: 15;" class="slider btn btn-primary" aria-label="contact-with-us">Apply Now</a>
+                                                    <a href="#courses" class="slider btn btn-primary border" style="z-index: 15;" aria-label="learn-more-about-us">Learn more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="particles-js"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="banner-carousel-item"
+                    style="background-image: url(images/back-images/vecteezy_wave-vector-element-with-abstract-colorful-gradient-lines_3705385.jpg)">
+                    <div class="slider-content">
+                        <div class="container h-100">
+                            <div class="row align-items-center h-100">
+                                <div class="col-md-12 text-center">
+                                    <h2 class="slide-title" data-animation-in="slideInLeft"></h2>
+                                    <h3 class="slide-sub-title" data-animation-in="slideInRight">Ai driven Training</h3>
+                                    <p data-animation-in="slideInLeft" data-duration-in="1.2">
+                                        <a href="#services" class="slider btn btn-primary">Our Services</a>
+                                        <a href="#contactUs" class="slider btn btn-primary border">Contact Now</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="banner-carousel-item"
+                    style="background-image: url(images/back-images/vecteezy_abstract-colorful-line-wave-on-black-background-use-for_3705356.jpg)">
+                    <div class="slider-content text-center">
+                        <div class="container h-100">
+                            <div class="row align-items-center h-100">
+                                <div class="col-md-12">
+                                    <h2 class="slide-title-box" data-animation-in="slideInDown" >World Class Service</h2>
+                                    <h3 class="slide-title" data-animation-in="fadeIn">When Service Matters</h3>
+                                    <h3 class="slide-sub-title" data-animation-in="slideInLeft">Your Choice is Simple</h3>
+                                    <p data-animation-in="slideInRight">
+                                        <a href="#services" class="slider btn btn-primary border">Our Services</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+
+            <!-- ? services-area -->
+            <div class="services-area">
+                <div class="container">
+                    <div class="row justify-content-sm-center">
+                        <div class="col-lg-4 col-md-6 col-sm-8">
+                            <div class="single-services mb-30">
+                                <div class="features-icon" href="#courses">
+                                    <img src="assets/img/icon/icon1.svg" alt="">
+                                </div>
+                                <div class="features-caption" >
+                                    <h3>10+ IT Language Courses</h3>
+                                    <p>Master a variety of IT languages with our comprehensive courses designed to meet industry standards.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-8">
+                            <div class="single-services mb-30">
+                                <div class="features-icon">
+                                    <img src="assets/img/icon/icon2.svg" alt="">
+                                </div>
+                                <div class="features-caption">
+                                    <h3>Expert Instructors</h3>
+                                    <p>Expert Instructors: Learn from industry experts who bring real-world experience and insights to the classroom.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-8">
+                            <div class="single-services mb-30">
+                                <div class="features-icon">
+                                    <img src="assets/img/icon/icon3.svg" alt="">
+                                </div>
+                                <div class="features-caption">
+                                    <h3>IT solutions</h3>
+                                    <p>IT Solutions: Get tailored IT solutions that address your unique business challenges and drive growth.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br id="aboutSection">
+            <div class="whole-wrap" style="margin-top: 5vh;">
+                <div class="container box_1170">
+                    <div class="section-top-border mb-30" style="margin-bottom: 0px; margin-top: 0px;">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-4" style="float: left; width: 60%;">
+
+                                <p style="font-size: large; text-align: justify; margin-bottom: 0px; font-style: oblique; font-weight: 400;">
+                                    Welcome to FosterAI, your gateway to a vibrant future in technology. At FosterAI, we are dedicated to nurturing the next generation of IT professionals through comprehensive internship programs and a suite of specialized services designed to propel aspiring tech enthusiasts towards success in the dynamic world of technology.<br>
+
+ <br>Beyond internships, FosterAI also offers a range of cutting-edge services in web development, mobile development, cloud solutions, and more. From conceptualization to execution, our team of experts is committed to delivering innovative solutions that meet the evolving needs of your business in the digital age.
+                                </p>
+                            </div>
+                            <img class="col-lg-12 col-md-4" src="images/intro_image.jpg" style="position: relative; width: 30%; height: 30%; margin-left: 7%;" />
+                        </div>
+                    </div>
+                    <div class="section-top-border" style="margin-bottom: -40px; margin-top: -3vh; border-radius: 10px; background-color: #ffffff; color:black; padding: 10px 20px; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); box-shadow: 3px 1px 10px 2px rgba(0, 0, 0, 0.3);">
+                        <h3 class="mb-30 vision-heading">Vision</h3>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="images/About-images/vision.jpg" height="60%" width="60%" class="img-fluid">
+                            </div>
+                            <div class="col-md-7 mt-sm-20">
+                                <p style="text-align: justify; font-size:large; font-weight: 500;color:black;  opacity: 0.7;">
+                                    At FosterAI, we envision a future where every IT student can realize their full potential and contribute meaningfully to technology. Through tailored internships and a culture of continuous learning, we aim to shape tech leaders who are proficient and passionate about using technology for positive change.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-top-border text-left" style="margin-bottom: -40px; margin-top: 18vh; border-radius: 10px; background-color: #ffffff; color: #333; padding: 10px 20px; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); box-shadow: 3px 1px 10px 2px rgba(0, 0, 0, 0.3);">
+                        <h3 class="mb-30 vision-heading">Mission</h3>
+                        <div class="row">
+                            <div class="col-md-7 mt-sm-20">
+                                <p style="text-align: justify; font-size: large; font-weight: 400; text-align: justify;">
+                                    At FosterAI, our mission is to empower IT students with practical skills and experiences through hands-on internships, bridging the gap between academia and industry for successful tech careers.
+
+
+                                </p>
+
+                            </div>
+                            <div class="col-md-4">
+                                <img src="images/mission.png" width="70%" height="70%" style="float: right;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section id="Section1" class="about-area1 fix pt-10" style="margin-top: 18vh; padding-bottom: 0px;">
+                <div class="support-wrapper align-items-center">
+                    <div class="left-content1">
+                        <!-- img -->
+                        <div class="right-img">
+                            <img src="images/About-images/problem1.jpeg" width="70%" />
+                        </div>
+                    </div>
+                    <div class="right-content1">
+                        <div class="about-icon">
+                            <img src="assets/img/icon/about.svg" alt="">
+                        </div>
+                        <!-- section tittle -->
+                        <div class="section-tittle section-tittle2 mb-55" style="margin-bottom: -3vh;">
+                            <div class="front-text">
+                                <h2>Current Scenario in IT</h2>
+                            </div>
+                        </div>
+                        <div class="problemsIconSizes">
+
+
+                            <div class="single-features">
+                                <div class="features-icon">
+                                    <img src="assets/img/icon/icons8-finger-50.png" alt="">
+                                </div>
+                                <div class="features-caption">
+                                    <p>Intense competition for limited job openings, with preference for Tier 1 institution graduates (IITs, NITs).
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="single-features">
+                                <div class="features-icon">
+                                    <img src="assets/img/icon/icons8-finger-50.png" alt="">
+                                </div>
+                                <div class="features-caption">
+                                    <p>Campus placements favor reputed colleges, disadvantaging students from lesser-known institutions.
+                                       
+
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="single-features">
+                                <div class="features-icon">
+                                    <img src="assets/img/icon/icons8-finger-50.png">
+                                </div>
+                                <div class="features-caption">
+                                    <p> Significant gap between academic skills and industry requirements; many students lack practical experience.
+
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="single-features">
+                                <div class="features-icon">
+                                    <img src="assets/img/icon/icons8-finger-50.png" alt="">
+                                </div>
+                                <div class="features-caption">
+                                    <p>Rapid technological advancements necessitate continuous learning; keeping up with trends is challenging.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="single-features">
+                                <div class="features-icon">
+                                    <img src="assets/img/icon/icons8-finger-50.png" alt="">
+                                </div>
+                                <div class="features-caption">
+                                    <p>Quality of education varies across institutions; some lack infrastructure, faculty, or resources.
+                                    </p>
+                                </div>
+                            </div>
+
+                           
+                            <div class="single-features">
+                                <div class="features-icon">
+                                    <img src="assets/img/icon/icons8-finger-50.png" alt="">
+                                </div>
+                                <div class="features-caption">
+                                    <p>Limited access to quality internships, especially for students from non-reputed institutions.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="single-features">
+                                <div class="features-icon">
+                                    <img src="assets/img/icon/icons8-finger-50.png" alt="">
+                                </div>
+                                <div class="features-caption">
+                                    <p>The pressure to secure a job, coupled with academic stress, can take a toll on students' mental health.Lack of support and resources for mental well-being is a concern. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section id="Section2" class="about-area1 fix pt-10" style="color:black;    padding-top: 0px; padding-bottom: 0px; margin-bottom: -110px; margin-top: 1vh;">
+                <div class="support-wrapper align-items-center">
+                    <div class="left-content1">
+
+                        <!-- section tittle -->
+                        <div class="section-tittle section-tittle2 mb-55" style="margin-bottom: -3vh; margin-left: 35px;">
+                            <div class="front-text">
+                                <h2 class="">Solutions</h2>
+                            </div>
+                        </div>
+
+                        <div class="single-features">
+                            <div class="features-icon">
+                                <img src="assets/img/icon/right-icon.svg" alt="">
+                            </div>
+                            <div class="features-caption">
+                                <p style="color:black">Data Analytics: Training in data reading, analytics, and pattern questioning.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="single-features">
+                            <div class="features-icon">
+                                <img src="assets/img/icon/right-icon.svg" alt="">
+                            </div>
+                            <div class="features-caption">
+                                <p style="color:black">Customer Handling: Exposure to client site work, review meetings, and customer handling.
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="single-features">
+                            <div class="features-icon">
+                                <img src="assets/img/icon/right-icon.svg" alt="">
+                            </div>
+                            <div class="features-caption">
+                                <p style="color:black">Soft Skills Training: Communication, presentation, reasoning, problem-solving, stress management, and time management.
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="single-features">
+                            <div class="features-icon">
+                                <img src="assets/img/icon/right-icon.svg" alt="">
+                            </div>
+                            <div class="features-caption">
+                                <p style="color:black">Business Domain Knowledge: Insights into insurance, manufacturing, telecom, media, and healthcaretterns.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="single-features">
+                            <div class="features-icon">
+                                <img src="assets/img/icon/right-icon.svg" alt="">
+                            </div>
+                            <div class="features-caption">
+                                <p style="color:black">Infrastructure Management: Basics of databases, networking, server sizing, data security, and encryption.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="single-features">
+                            <div class="features-icon">
+                                <img src="assets/img/icon/right-icon.svg" alt="">
+                            </div>
+                            <div class="features-caption">
+                                <p style="color:black">Optimization: Scalability, fault tolerance, and high availability architectures.
+                                    
+                            </div>
+                        </div>
+                        <div class="single-features">
+                            <div class="features-icon">
+                                <img src="assets/img/icon/right-icon.svg" alt="">
+                            </div>
+                            <div class="features-caption">
+                                <p style="color:black">Management Concepts: Project planning, execution, status reporting, and daily sprints.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="single-features">
+                            <div class="features-icon">
+                                <img src="assets/img/icon/right-icon.svg" alt="">
+                            </div>
+                            <div class="features-caption">
+                                <p style="color:black">Business Concepts: Financial terms, manufacturing principles, and HR from industry experts.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right-content1">
+                        <!-- img -->
+                        <div class="right-img sol-img" style="width: 70%">
+                            <!-- <img src="assets/img/gallery/about.png" alt=""> -->
+                            <img src="images/About-images/man-solved.jpeg" />
+                            <!-- <div class="video-icon" >
+                            <a class="popup-video btn-icon" href="https://www.youtube.com/watch?v=up68UAfH0d0"><i class="fas fa-play"></i></a>
+                        </div> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="services" style="padding: 0px;">
+                <div class="courses-area section-padding40 fix" style="margin-top: 18vh; padding-bottom: 0px;">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-7 col-lg-8">
+                                <div class="section-tittle text-center mb-55">
+                                    <h2>Services</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="properties properties2 mb-30">
+                                    <div class="properties__card">
+                                        <div class="properties__img overlay1">
+                                            <a href="#">
+                                                <img src="./images/services/web-development-2.jpg" alt="" style="height: 190px;"></a>
+                                        </div>
+                                        <div class="properties__caption">
+                                            <h3><a href="#">Web Development</a></h3>
+                                            <p>
+                                                Web development services include website design, development, maintenance, and optimization to enhance online presence and functionality.
+                                            </p>
+
+                                            <a onclick="contactUsFormShow('web')" class="border-btn border-btn2 btnContactUs">Contact Us</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="properties properties2 mb-30">
+                                    <div class="properties__card">
+                                        <div class="properties__img overlay1">
+                                            <a href="#">
+                                                <img src="./images/services/app-dev.jpg" alt="" style="height: 190px;"></a>
+                                        </div>
+                                        <div class="properties__caption">
+                                            <h3><a href="#">App Development</a></h3>
+                                            <p>
+                                                App development services include creating, updating, and maintaining mobile applications to improve accessibility and user engagement experience.
+                                            </p>
+                                            <a onclick="contactUsFormShow('App')" class="border-btn border-btn2 btnContactUs">Contact Us</a>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="properties properties2 mb-30">
+                                    <div class="properties__card">
+                                        <div class="properties__img overlay1">
+                                            <a href="#">
+                                                <img src="images/services/oracle.svg" alt="" style="height: 190px;"></a>
+                                        </div>
+                                        <div class="properties__caption">
+                                            <h3><a href="#">Oracle applications</a></h3>
+                                            <p>
+                                                Oracle services include database management, cloud solutions,<br>enterprise software, and consulting to support robust and scalable business operations. 
+    
+                                            </p>
+                                            <a onclick="contactUsFormShow('Api')" class="border-btn border-btn2 btnContactUs">Contact Us</a>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="properties properties2 mb-30">
+                                    <div class="properties__card">
+                                        <div class="properties__img overlay1">
+                                            <a href="#">
+                                                <img src="./images/services/ittt.png" alt="" style="height: 190px;" /></a>
+                                        </div>
+                                        <div class="properties__caption">
+                                            <h3><a href="#">IT Helpdesk</a></h3>
+                                            <p>
+                                                IT Help Desk provides technical support and troubleshooting for computer systems, software, and networks, ensuring efficient and uninterrupted business operations.
+    
+                                            </p>
+
+                                            <a onclick="contactUsFormShow('Database')" class="border-btn border-btn2 btnContactUs">Contact Us</a>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="properties properties2 mb-30">
+                                    <div class="properties__card">
+                                        <div class="properties__img overlay1">
+                                            <a href="#">
+                                                <img src="./images/services/intern.jpeg" alt="" style="height: 190px;"></a>
+                                        </div>
+                                        <div class="properties__caption">
+                                            <h3><a href="#">Internship & Training </a></h3>
+                                            <p>
+                                                Offer structured internships and <br>training programs with real-world projects, expert mentorship, and industry-relevant skills for students and professionals.
+
+                                             </p>
+                                            <a onclick="contactUsFormShow('Oracle')" class="border-btn border-btn2 btnContactUs">Contact Us</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="properties properties2 mb-30">
+                                    <div class="properties__card">
+                                        <div class="properties__img overlay1">
+                                            <a href="#">
+                                                <img src="./images/services/staff.jpeg" alt="" style="height: 190px;"></a>
+                                        </div>
+                                        <div class="properties__caption">
+                                            <h3><a href="#">Staff support</a></h3>
+                                            <p>
+                                                Provides IT businesses with tailored workforce management, delivering <br>skilled temporary or permanent staff to meet dynamic needs for all IT solution.</p>
+                                            <a onclick="contactUsFormShow('Ecommerce')" class="border-btn border-btn2 btnContactUs">Contact Us</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+          <!--? Team -->
+          <section class="team-area section-padding40 fix" style="padding-top: 0px; padding-bottom: 0px;">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-7 col-lg-8">
+                        <div class="section-tittle text-center mb-55">
+                            <h2>Our Team</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="single-cat text-center col-lg-3" style="margin: 0px">
+                        <div class="cat-icon">
+                            <img src="images/team/rohit sir.jpeg" alt="" class="team-img">
+                        </div>
+                        <br>
+                        <div class="cat-cap rohit-img">
+                            <h5><a href="services.html">Mr. Rohit Chaudhary</a></h5>
+                            <div class="facultyAcc">
+                                <a href="https://www.linkedin.com/in/rohit-chaudhary-8821ba141/"><i class="fa-brands fa-linkedin social-linkedIn"></i></a>
+                                <a href="https://www.instagram.com/rohit_rule/"><i class="fa-brands fa-square-instagram social-insta"></i></a>
+                            </div>
+                            <p>5+ Years of experience in cloud computing, python development & training support programs management</p>
+                        </div>
+                    </div>
+                    
+                    <div class="single-cat text-center col-lg-3" style="margin: 0px">
+                        <div class="cat-icon">
+                            <img src="images/team/simran sharma.jpg" alt="" class="team-img">
+                        </div>
+                        <div class="cat-cap">
+                            <br>
+                            <h5><a href="services.html">Simran Sharma</a></h5>
+                            <div class="facultyAcc">
+                                <a href="https://www.linkedin.com/in/simran-sharma-084b22250/"><i class="fa-brands fa-linkedin social-linkedIn"></i></a>
+                                <a href="https://www.instagram.com/simran_2704_?igsh=MWJ0dXI2ZTZydGNrdw=="><i class="fa-brands fa-square-instagram social-insta"></i></a>
+                            </div>
+                            <p>MERN Stack Instructor,Expert front-end instructor empowring students to master modern web technologies through innovative, interactive teaching approaches</p>
+                        </div>
+                    </div>
+                    <div class="single-cat text-center col-lg-3" style="margin: 0px">
+                        <div class="cat-icon">
+                            <img src="images/team/rahul.jpeg" alt="" class="team-img">
+                        </div>
+                        <br>
+                        <div class="cat-cap">
+                            <h5><a href="services.html">Rahul Singh</a></h5>
+                            <div class="facultyAcc">
+                                <a href="https://www.linkedin.com/in/rahul-kumar-aab5671ab/"><i class="fa-brands fa-linkedin social-linkedIn"></i></a>
+                                <a href="https://www.instagram.com/just_rahulll_/"><i class="fa-brands fa-square-instagram social-insta"></i></a>
+                            </div>
+                            <p>Python Instructor,Innovative Python instructor transforming learning with immersive, project-based approaches to mastering coding and data science.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+            <section id="courses" style="padding: 0px;">
+                <div class="courses-area section-padding40 fix" style="margin-top: 10vh; padding-bottom: 0px;">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-7 col-lg-8">
+                                <div class="section-tittle text-center mb-55">
+                                    <h2>Our featured courses</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="properties properties2 mb-30">
+                                    <div class="properties__card">
+                                        <div class="properties__img overlay1">
+                                            <a href="#">
+                                                <img src="./images/courses/data-analytics.png" alt="" style="height: 190px;"></a>
+                                        </div>
+                                        <div class="properties__caption">
+                                            <h3><a href="#">Data Analytics (Python)</a></h3>
+                                            <p>
+                                                Data analytics in Python involves extracting insights and knowledge from data using Python's tools and libraries.
+                                            </p>
+                                            <div class="d-grid gap-1">
+                                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeByOxUSNyuMpyYSkuSDCmJwqL0-dSpZyrdI0UCn1JYceJJiw/viewform" class="btn btn-primary" type="button">Apply Now</a>
+                                                <a href="course_brochure/DApython.pdf" class="btn btn-dark" type="button">Brochure</a>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="properties properties2 mb-30">
+                                    <div class="properties__card">
+                                        <div class="properties__img overlay1">
+                                            <a href="#">
+                                                <img src="./images/courses/mern.png" alt="" style="height: 190px;"></a>
+                                        </div>
+                                        <div class="properties__caption">
+                                            <h3><a href="#">MERN</a></h3>
+                                            <p>
+                                                The MERN stack is a JavaScript stack used for building full-stack web applications. It consists of MongoDB, Express.js, React, and Node.js
+                                            </p>
+                                            <div class="d-grid gap-2">
+                                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeByOxUSNyuMpyYSkuSDCmJwqL0-dSpZyrdI0UCn1JYceJJiw/viewform" class="btn btn-primary" type="button">Apply Now</a>
+                                                <a href="course_brochure/DApython.pdf" class="btn btn-dark" type="button">Brochure</a>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="properties properties2 mb-30">
+                                    <div class="properties__card">
+                                        <div class="properties__img overlay1">
+                                            <a href="#">
+                                                <img src="./images/courses/ui-ux.jpg" alt="" style="height: 190px;"></a>
+                                        </div>
+                                        <div class="properties__caption">
+                                            <h3><a href="#">UI/UX Design</a></h3>
+                                            <p>
+                                                UX/UI design: crafting intuitive, user-centric interfaces for digital products to enhance usability and user experience.
+
+                                           </p>
+                                            <div class="d-grid gap-2">
+                                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeByOxUSNyuMpyYSkuSDCmJwqL0-dSpZyrdI0UCn1JYceJJiw/viewform" class="btn btn-primary" type="button">Apply Now</a>
+                                                <a href="course_brochure/DApython.pdf" class="btn btn-dark" type="button">Brochure</a>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                           <!-- <div class="col-lg-3">
+                                <div class="properties properties2 mb-30">
+                                    <div class="properties__card">
+                                        <div class="properties__img overlay1">
+                                            <a href="#">
+                                                <img src="./images/courses/react.jpg" alt="" style="height: 190px;"></a>
+                                        </div>
+                                        <div class="properties__caption">
+                                            <h3><a href="#">Web designing (React)</a></h3>
+                                            <p>
+                                                The automated process all your website tasks. Discover tools and techniques to
+                                        engage effectively with vulnerable children and young people.
+
+                                            </p>
+
+                                            <div class="d-grid gap-2">
+                                                <button class="btn btn-primary" onclick="internFormShow('React')" type="button">Apply Now</button>
+                                                <a href="course_brochure/webdesign.pdf" class="btn btn-dark" type="button">Download Brochure</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>-->
+                            <div class="col-lg-3">
+                                <div class="properties properties2 mb-30">
+                                    <div class="properties__card">
+                                        <div class="properties__img overlay1">
+                                            <a href="#">
+                                                <img src="./images/courses/java.png" alt="" style="height: 190px;"></a>
+                                        </div>
+                                        <div class="properties__caption">
+                                            <h3><a href="#">Java</a></h3>
+                                            <p>
+                                                Java is a versatile, object-oriented programming language known for its portability, robustness, and widespread use in software development.
+
+                                            </p>
+                                            <div class="d-grid gap-2">
+                                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeByOxUSNyuMpyYSkuSDCmJwqL0-dSpZyrdI0UCn1JYceJJiw/viewform" class="btn btn-primary" type="button">Apply Now</a>
+                                                <a href="course_brochure/DApython.pdf" class="btn btn-dark" type="button">Brochure</a>
+                                                
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="properties properties2 mb-30">
+                                        <div class="properties__card">
+                                            <div class="properties__img overlay1">
+                                                <a href="#">
+                                                    <img src="./images/courses/php.png" alt="" style="height: 190px;"></a>
+                                            </div>
+                                            <div class="properties__caption">
+                                                <h3><a href="#">PHP</a></h3>
+                                                <p>
+                                                    PHP is a server-side scripting language used<br> for web development to create dynamic and interactive web pages and applications.
+                                                </p>
+                                                <div class="d-grid gap-1">
+                                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeByOxUSNyuMpyYSkuSDCmJwqL0-dSpZyrdI0UCn1JYceJJiw/viewform" class="btn btn-primary" type="button">Apply Now</a>
+                                                    <a href="course_brochure/DApython.pdf" class="btn btn-dark" type="button">Brochure</a>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="properties properties2 mb-30">
+                                        <div class="properties__card">
+                                            <div class="properties__img overlay1">
+                                                <a href="#">
+                                                    <img src="./images/courses/aws.png" alt="" style="height: 190px;"></a>
+                                            </div>
+                                            <div class="properties__caption">
+                                                <h3><a href="#">AWS</a></h3>
+                                                <p>
+                                                    AWS provides cloud computing services offering scalable, reliable, and secure solutions for businesses and organizations worldwide.
+                                                </p>
+                                                <div class="d-grid gap-2">
+                                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeByOxUSNyuMpyYSkuSDCmJwqL0-dSpZyrdI0UCn1JYceJJiw/viewform" class="btn btn-primary" type="button">Apply Now</a>
+                                                    <a href="course_brochure/DApython.pdf" class="btn btn-dark" type="button">Brochure</a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="properties properties2 mb-30">
+                                        <div class="properties__card">
+                                            <div class="properties__img overlay1">
+                                                <a href="#">
+                                                    <img src="./images/courses/manual.png" alt="" style="height: 190px;"></a>
+                                            </div>
+                                            <div class="properties__caption">
+                                                <h3><a href="#"> TESTING</a></h3>
+                                                <p>
+                                                    Manual testing involves human testers executing test without automation, ensuring software meets specified requirements and quality standards.
+    
+                                               </p>
+                                                <div class="d-grid gap-2">
+                                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeByOxUSNyuMpyYSkuSDCmJwqL0-dSpZyrdI0UCn1JYceJJiw/viewform" class="btn btn-primary" type="button">Apply Now</a>
+                                                    <a href="course_brochure/DApython.pdf" class="btn btn-dark" type="button">Brochure</a>
+                                                    
+                                                </div>
+                                            </div>
+    
+                                        </div>
+    
+                                    </div>
+                                </div>
+                               <!-- <div class="col-lg-3">
+                                    <div class="properties properties2 mb-30">
+                                        <div class="properties__card">
+                                            <div class="properties__img overlay1">
+                                                <a href="#">
+                                                    <img src="./images/courses/react.jpg" alt="" style="height: 190px;"></a>
+                                            </div>
+                                            <div class="properties__caption">
+                                                <h3><a href="#">Web designing (React)</a></h3>
+                                                <p>
+                                                    The automated process all your website tasks. Discover tools and techniques to
+                                            engage effectively with vulnerable children and young people.
+    
+                                                </p>
+    
+                                                <div class="d-grid gap-2">
+                                                    <button class="btn btn-primary" onclick="internFormShow('React')" type="button">Apply Now</button>
+                                                    <a href="course_brochure/webdesign.pdf" class="btn btn-dark" type="button">Download Brochure</a>
+                                                </div>
+                                            </div>
+    
+                                        </div>
+    
+                                    </div>
+                                </div>-->
+                                <div class="col-lg-3">
+                                    <div class="properties properties2 mb-30">
+                                        <div class="properties__card">
+                                            <div class="properties__img overlay1">
+                                                <a href="#">
+                                                    <img src="./images/courses/network.jpeg" alt="" style="height: 190px;"></a>
+                                            </div>
+                                            <div class="properties__caption">
+                                                <h3><a href="#">NETWORKING</a></h3>
+                                                <p>
+                                                    Networking is the practice of connecting computers and other devices to share resources and communicate through wired or wireless means.
+                                                </p>
+                                                <div class="d-grid gap-2">
+                                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeByOxUSNyuMpyYSkuSDCmJwqL0-dSpZyrdI0UCn1JYceJJiw/viewform" class="btn btn-primary" type="button">Apply Now</a>
+                                                    <a href="course_brochure/DApython.pdf" class="btn btn-dark" type="button">Brochure</a>
+
+                                                </div>
+                                            </div>
+    
+                                        </div>
+    
+                                    </div>
+                                </div>
+                                       
+                           <!-- <div class="col-lg-3">
+                                <div class="properties properties2 mb-30">
+                                    <div class="properties__card">
+                                        <div class="properties__img overlay1">
+                                            <a href="#">
+                                                <img src="./images/courses/php.png" alt="" style="height: 190px;"></a>
+                                        </div>
+                                        <div class="properties__caption">
+                                            <h3><a href="#">PHP</a></h3>
+                                            <p>
+                                                The automated process all your website tasks. Discover tools and techniques to
+                                        engage effectively with vulnerable children and young people.
+                                            </p>
+                                            <div class="d-grid gap-2">
+                                                <button class="btn btn-primary" onclick="internFormShow('PHP')" type="button">Apply Now</button>
+                                                <a href="#" class="btn btn-dark" type="button">Download Brochure</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+               
+            </section>
+            <section id="contactUs" class="contact-section" style="padding-bottom: 0px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="contact-title">Get in Touch</h2>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="form-contact contact_form" id="contactForm">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <textarea  class="form-control w-100" name="message" id="txtMessage" cols="30" rows="5" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder=" Enter Message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input  class="form-control valid" name="name" ID="txtName" onfoctus="this.placeholder = ''" onblur="this.placeholder = 'Enter Name'" placeholder="Name"></input>
+                                            <!-- <asp:RegularExpressionValidator ID="RegularExpressionValidator5" 
+                                                ControlToValidate="txtName"
+                                                ErrorMessage="Please enter only characters"
+                                                ValidationExpression="^[a-zA-Z\s]*$"
+                                                Display="Dynamic" ForeColor="Red">
+                                            </asp:RegularExpressionValidator> -->
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input  class="form-control valid" name="subject" ID="txtSubject" TextMode="SingleLine" exonfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Topic'" placeholder="Subject"></input>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input  class="form-control valid" name="mobile" ID="txtContact" TextMode="Phone" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Contact Number'" placeholder="Mobile Number"></input>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input  class="form-control valid" name="email" ID="txtMail" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Email"></input>
+                                            <!-- <asp:RegularExpressionValidator ID="RegularExpressionValidator3" 
+                                                ControlToValidate="txtEmailService"
+                                                ErrorMessage="Please enter a  valid email address"
+                                                ForeColor="Red" Display="Dynamic"
+                                                ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*">
+                                            </asp:RegularExpressionValidator> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <button ID="btnSendQurey" type="submit" CausesValidation="false" class="button boxed-btn"  OnClick="alert('Not in use. We are working on it.')"  ValidateRequestMode="Disabled" ViewStateMode="Enabled"> Send </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 offset-lg-1">
+                            <div class="media contact-info">
+                                <span class="contact-info__icon"><i class="ti-home"></i></span>
+                                <div class="media-body">
+                                    <p style="color:black; font-weight:bolder;"><Strong>FosterAI</Strong></p>
+                                    <p>Ambika 2, Plot No 119, Rajendra Nagar, Ghaziabad, Uttar Pradesh 201005</p>
+                                </div>
+                            </div>
+                            <div class="media contact-info">
+                                <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                                <div class="media-body">
+                                    <h3>+91 9582273806</h3>
+                                    <p>Mon to Fri 10AM to 6PM</p>
+                                </div>
+                            </div>
+                            <div class="media contact-info">
+                                <span class="contact-info__icon"><i class="ti-email"></i></span>
+                                <div class="media-body">
+                                    <p style="color: black; font-weight: bolder;">fosterai123456@gmail.com</p>
+                                    <p>Send us your query anytime!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-none d-sm-block mb-5 pb-4" style="margin-bottom: 0px;">
+                        <div id="map" style="position: relative; overflow: hidden;">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7000.0984848914495!2d77.33942481750131!3d28.688173550081228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb49b2bcade7%3A0x127076a6a8792e!2sAmbika%20Apartment%2C%202%2F119!5e0!3m2!1sen!2sin!4v1721109485940!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div class="footer-wrappper footer-bg">
+                    <!-- Footer Start-->
+                    <div class="footer-area" style="padding-top: 8vh;">
+                        <div class="container">
+                            <div class="row justify-content-between" style="display: flex; flex-wrap: nowrap">
+                                <div class="col-xl-4 col-lg-5 col-md-4 col-sm-6" style="width: 31%;">
+                                    <div class="single-footer-caption mb-50">
+                                        <div class="single-footer-caption mb-30">
+                                            <!-- logo -->
+                                            <div class="footer-logo mb-25">
+                                                <a href="index.html">
+                                                    <p style="color:white;"><Strong>FosterAI</Strong></p>
+                                                   <!--- <img src="images/FOSTERLEAF.png" height="45em"-->
+                                                       <!--- alt=""></a>-->
+                                            </div>
+                                            <div class="footer-tittle">
+                                                <div class="footer-pera">
+                                                    <p style="font-weight: bold; margin-bottom: 10px;">
+                                                        From classrooms to codebases, we foster brilliance in IT.
+                                                    </p>
+                                                    <p style="margin-bottom: auto; text-align: justify;">
+                                                        At FosterAI, we provide top-notch IT training, internships, and real-world project experience. Our programs bridge the gap between academic learning and industry demands, equipping students with the skills needed for a successful tech career. Join us to shape your future in technology. 
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                            <!-- social -->
+
+                                            <div class="footer-social">
+
+                                               <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-x"></i></a>
+                                               <a href="https://www.facebook.com/login/"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="https://www.linkedin.com/in/rohit-chaudhary-8821ba141/"><i class="fa-brands fa-linkedin-in"></i></a>
+                                                <a href="https://www.instagram.com/rohit_rule/"><i class="fa-brands fa-instagram"></i></a>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6" style="width: 18%">
+                                    <div class="single-footer-caption mb-50">
+                                        <div class="footer-tittle">
+                                            <h4>Quick Links</h4>
+                                            <ul>
+                                                <li><a href="#aboutSection">About Us </a></li>
+                                                <li><a href="#services">Services</a></li>
+                                                <li><a href="#courses">Courses</a></li>
+                                                <li><a href="#">Privacy Policy </a></li>
+                                                <li><a href="#contactUs">Contact Us</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6" style="width: 18%;">
+                                    <div class="single-footer-caption mb-50">
+                                        <div class="footer-tittle">
+                                            <h4>Trainings In</h4>
+                                            <ul>
+                                                <li><a href="#">MERN Stack</a></li>
+                                                <li><a href="#">Python with Data Analytics</a></li>
+                                                <li><a href="#">Cloud Development-AWS</a></li>
+                                                <li><a href="#">Manual Testing</a></li>
+                                                <li><a href="#">Java</a></li>
+                                                <li><a href="#">PHP</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6" style="display: block; width: 30%;">
+                                    <div>
+                                        <!-- style="width:fit-content;"class="col-lg-3 offset-lg-3"-->
+                                        <div class="media contact-info">
+                                            <span class="contact-info__icon"><i style="color: white;" class="ti-home"></i></span>
+                                            <div class="media-body">
+                                                <p style="color: white; font-weight:bolder;"><Strong>FosterAI</Strong></p>
+                                                <p style="color: white;">Ambika 2, Plot No 119, Rajendra Nagar, Ghaziabad, Uttar Pradesh 201005</p>
+                                            </div>
+                                        </div>
+                                        <div class="media contact-info">
+                                            <span class="contact-info__icon"><i style="color: white;" class="ti-tablet"></i></span>
+                                            <div class="media-body">
+                                                <h3 style="color: white;">+91 9582273806</h3>
+                                                <p style="color: white;">Mon to Fri 10AM to 6PM</p>
+                                            </div>
+                                        </div>
+                                        <div class="media contact-info">
+                                            <span class="contact-info__icon"><i style="color: white;" class="ti-email"></i></span>
+                                            <div class="media-body">
+                                                <a style="color: white; font-weight: bolder;">fosterai123456@gmail.com</a>
+                                                <p style="color: white;">Send us your query anytime!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- footer-bottom area -->
+                    <div class="footer-bottom-area">
+                        <div class="container">
+                            <div class="footer-border" style="padding: 0px;">
+
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-xl-12 ">
+                                        <div class="footer-copy-right text-center">
+                                            <p>
+                                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                                FosterAI Pvt Ltd | &copy; 2024 All rights reserved
+                                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer End-->
+                </div>
+            </footer>
+        </div>
+
+        <style>
+            /* Targeting the specific icon to remove the background and border */
+            
+            .footer-social a {
+                background: none !important;  /* Ensures no background is applied to the anchor tag */
+                border: none !important;      /* Ensures no border is applied to the anchor tag */
+                box-shadow: none !important;  /* Ensures no box-shadow is applied to the anchor tag */
+            }
+
+        </style>
+
+        <script src="plugins/jQuery/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="plugins/slick/slick.min.js"></script>
+        <script src="plugins/slick/slick-animation.min.js"></script>
+        <script src="js/script.js"></script>
+
+        
+
+        <!-- Scroll Up -->
+        <div id="back-top">
+            <a title="Go to Top" href="#"><i class="fas fa-level-up-alt"></i></a>
+        </div>
+
+        <!-- JS here -->
+        <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+        <!-- Jquery, Popper, Bootstrap -->
+        <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="./assets/js/popper.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+        <!-- Jquery Mobile Menu -->
+        <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+        <!-- Jquery Slick , Owl-Carousel Plugins -->
+        <script src="./assets/js/owl.carousel.min.js"></script>
+        <script src="./assets/js/slick.min.js"></script>
+        <!-- One Page, Animated-HeadLin -->
+        <script src="./assets/js/wow.min.js"></script>
+        <script src="./assets/js/animated.headline.js"></script>
+        <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+        <!-- Date Picker -->
+        <script src="./assets/js/gijgo.min.js"></script>
+        <!-- Nice-select, sticky -->
+        <script src="./assets/js/jquery.nice-select.min.js"></script>
+        <script src="./assets/js/jquery.sticky.js"></script>
+        <!-- Progress -->
+        <script src="./assets/js/jquery.barfiller.js"></script>
+
+        <!-- counter , waypoint,Hover Direction -->
+        <script src="./assets/js/jquery.counterup.min.js"></script>
+        <script src="./assets/js/waypoints.min.js"></script>
+        <script src="./assets/js/jquery.countdown.min.js"></script>
+        <script src="./assets/js/hover-direction-snake.min.js"></script>
+
+        <!-- contact js -->
+        <script src="./assets/js/contact.js"></script>
+        <script src="./assets/js/jquery.form.js"></script>
+        <script src="./assets/js/jquery.validate.min.js"></script>
+        <script src="./assets/js/mail-script.js"></script>
+        <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+        <!-- Jquery Plugins, main Jquery -->
+        <script src="./assets/js/plugins.js"></script>
+        <script src="./assets/js/main.js"></script>
+        <script>
+            function contactUsFormShow(y){
+                if(y==="web"){
+                    document.getElementById("txtSubjectService").value = "Web development";
+                }else if(y==='App'){
+                    document.getElementById("txtSubjectService").value = "App development";
+                }else if(y==='Api'){
+                    document.getElementById("txtSubjectService").value = "Api development";
+                }else if(y==='Database'){
+                    document.getElementById("txtSubjectService").value = "Database Support";
+                }else if(y==='Oracle'){
+                    document.getElementById("txtSubjectService").value = "Oracle Applications";
+                }else if(y==='Ecommerce'){
+                    document.getElementById("txtSubjectService").value = "Ecommerce Applications";
+                }
+
+                $('#contactUsModal').modal('show');
+            }
+            function internFormShow(x)
+            {
+                if(x==='MERN'){
+                    document.getElementById("txtInternCourse").value = "MERN";
+                }
+                else if(x==='Analytics'){
+                    document.getElementById("txtInternCourse").value = "Data Analytics";
+                }else if(x==='UI'){
+                    document.getElementById("txtInternCourse").value = "UI/UX Design";
+                }else if(x==='React'){
+                    document.getElementById("txtInternCourse").value = "Web Design (React)";
+                }else if(x==='Java'){
+                    document.getElementById("txtInternCourse").value = "Java";
+                }else if(x==='PHP'){
+                    document.getElementById("txtInternCourse").value = "PHP";
+                }
+                //let txt = document.getElementById("validationDefault02");
+
+
+                $('#internshipModal').modal('show');
+            }
+            var navLinksEls=document.querySelectorAll('.nav_links');
+            document.addEventListener('DOMContentLoaded', function() {
+                var navLinksEls = document.querySelectorAll('.nav_links');
+                navLinksEls.forEach(navLinksEl => {
+                    navLinksEl.addEventListener('click', function() {
+                        var activeEl = document.querySelector('.active');
+                        if (activeEl) {
+                            activeEl.classList.remove('active');
+                        }
+                        navLinksEl.classList.add('active');
+                    });
+            });
+            });
+        </script>
+        <script src="js/2.0.0-particles.min.js"></script>
+        <script>particlesJS("particles-js",
+    {
+        particles: {
+            number: { value: 135, density: { enable: !0, value_area: 800 } },
+            color: { value: "#ffffff" },
+            shape: { type: "circle", stroke: { width: 0, color: "#000000" }, polygon: { nb_sides: 5 } },
+            opacity: { value: .4, random: !1, anim: { enable: !1, speed: 1, opacity_min: .1, sync: !1 } },
+            size: { value: 3, random: !0, anim: { enable: !1, speed: 40, size_min: .1, sync: !1 } },
+            line_linked: { enable: !0, distance: 150, color: "#ffffff", opacity: .5, width: 1 },
+            move: { enable: !0, speed: 6, direction: "none", random: !1, straight: !1, out_mode: "out", bounce: !1, attract: { enable: !1, rotateX: 600, rotateY: 1200 } }
+        },
+        interactivity: {
+            detect_on: "canvas", events: { onhover: { enable: !0, mode: "grab" }, onclick: { enable: !0, mode: "push" }, resize: !0 },
+            modes: { grab: { distance: 140, line_linked: { opacity: 1 } }, bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 }, repulse: { distance: 200, duration: .4 }, push: { particles_nb: 4 }, remove: { particles_nb: 2 } }
+        },
+        retina_detect: !0
+    });
+        </script>
+        <script type="text/javascript">
+            (function (m, e, t, r, i, k, a) { m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) }; m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a) })(window, document, "script", "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js", "ym");
+            ym(95033036, "init", { clickmap: true, trackLinks: true, accurateTrackBounce: true }); </script>
+        <noscript>
+    <div>
+        <img src="images/watch-95033036" style="position:absolute; left:-9999px;" alt=""/>
+    </div>
+</noscript>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag("js", new Date());
+            gtag("config", "G-W5TSJNM83B");
+        </script>
+        <script>
+            (function () {
+                if (!document.body) return;
+                var js = "window['__CF$cv$params']={r:'87ffcf2799b2275f',t:'MTcxNTA3MDIxOS42MjYwMDA='}; _cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";
+                var _0xh = document.createElement('iframe'); _0xh.height = 1; _0xh.width = 1; _0xh.style.position = 'absolute'; _0xh.style.top = 0; _0xh.style.left = 0; _0xh.style.border = 'none'; _0xh.style.visibility = 'hidden'; document.body.appendChild(_0xh);
+                function handler() {
+                    var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;
+                    if (_0xi) { var _0xj = _0xi.createElement('script'); _0xj.innerHTML = js; _0xi.getElementsByTagName('head')[0].appendChild(_0xj); }
+                }
+                if (document.readyState !== 'loading') { handler(); }
+                else if (window.addEventListener) { document.addEventListener('DOMContentLoaded', handler); } 
+                else {
+                    var prev = document.onreadystatechange || function () { }; document.onreadystatechange = function (e) {
+                        prev(e);
+                        if (document.readyState !== 'loading')
+                        { document.onreadystatechange = prev; handler(); }
+                    };
+                }
+            })();
+        </script>
+        </div>
+    
+    </body>
+</html>
